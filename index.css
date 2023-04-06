@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Karla;
+  src: url(fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+
+
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+h1 {
+    margin: 0;
+    font-family: Karla, sans-serif;
+    font-weight: 800px;
+    color:#FFFFFF;
+}
+
+.password-box {
+
+    background-color: red;
+    justify-content: center;
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.btn {
+ padding: 9px 17px 9px 15px;
+ margin: 60px 307px 0px 52px;
+ border-radius: 6px;
+ background-color: #10B981;
+ 
+}
+
+.hero {
+    margin: 115px 144px 0px 52px;
+    color:#D5D4D8; 
+}
+
+
+
+#password-fields {
+    display: flex;
+    margin-top: 35px;
+    color:#55F991;
+ 
+}
+
+hr {
+    margin-inline: 52px; 
+    margin-top: 35px;
+    border: 1px solid #2F3E53;
+}
+
+#password-short {
+    margin-left: 52px;
+}
+
+#password-long {
+    margin-left: 24px;
+}
